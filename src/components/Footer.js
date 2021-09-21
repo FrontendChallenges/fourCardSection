@@ -4,8 +4,8 @@ import Container from 'react-bootstrap/Container';
 function Footer({ author, challengeBy }) {
   return (
     <footer>
-      <Container className='text-center'>
-        <p class='attribution'>
+      <Container className='text-center' fluid={'md'}>
+        <p>
           Challenge by
           <a
             href='https://www.frontendmentor.io?ref=challenge'
