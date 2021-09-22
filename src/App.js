@@ -4,6 +4,10 @@ import Title from './components/Title';
 import SectionCard from './components/SectionCard';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import calculator from './assets/images/icon-calculator.svg';
+import karma from './assets/images/icon-karma.svg';
+import supervisor from './assets/images/icon-supervisor.svg';
+import team from './assets/images/icon-team-builder.svg';
 import Col from 'react-bootstrap/Col';
 import './assets/sass/custom.scss';
 
@@ -22,22 +26,28 @@ function App() {
             />
           </Row>
           <Row>
-            <SectionCard
-              title='Supervisor'
-              content=' Monitors activity to identify project roadblocks'
-            />
-            <SectionCard
-              title='Team Builder'
-              content=' Scans our talent network to create the optimal team for your project'
-            />
-            <SectionCard
-              title='Karma'
-              content='Regularly evaluates our talent to ensure quality'
-            />
-            <SectionCard
-              title='Calculator'
-              content='Uses data from past projects to provide better delivery estimates'
-            />
+            <Col>
+              <SectionCard
+                title='Supervisor'
+                content=' Monitors activity to identify project roadblocks'
+                icon={supervisor}
+              />
+              <SectionCard
+                title='Team Builder'
+                content=' Scans our talent network to create the optimal team for your project'
+                icon={team}
+              />
+              <SectionCard
+                title='Karma'
+                content='Regularly evaluates our talent to ensure quality'
+                icon={karma}
+              />
+              <SectionCard
+                title='Calculator'
+                content='Uses data from past projects to provide better delivery estimates'
+                icon={calculator}
+              />
+            </Col>
           </Row>
         </Container>
       </main>

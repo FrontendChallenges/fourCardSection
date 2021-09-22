@@ -7908,3 +7908,6 @@ textarea.form-control-lg {
 
 html {
   font-size: 62.5%; }
+
+.card img {
+  max-width: 5%; }
