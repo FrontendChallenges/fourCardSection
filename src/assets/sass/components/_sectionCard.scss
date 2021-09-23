@@ -5,16 +5,26 @@
   & img {
     max-width: 5%;
   }
-  
+
   &-top {
-    height: 0.5rem;
     &__red {
+      background-color: $danger;
     }
     &__blue {
+      background-color: $primary;
     }
     &__green {
+      background-color: $success;
     }
     &__yellow {
+      background-color: $warning;
+    }
+
+    &__red,
+    &__blue,
+    &__green,
+    &__yellow {
+      height: 0.5rem;
     }
   }
 }

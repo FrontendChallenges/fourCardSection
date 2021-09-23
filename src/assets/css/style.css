@@ -7915,5 +7915,13 @@ html {
   overflow: hidden; }
   .card img {
     max-width: 5%; }
-  .card-top {
+  .card-top__red {
+    background-color: #ea5353; }
+  .card-top__blue {
+    background-color: #549ef2; }
+  .card-top__green {
+    background-color: #45d3d3; }
+  .card-top__yellow {
+    background-color: #fcaf4a; }
+  .card-top__red, .card-top__blue, .card-top__green, .card-top__yellow {
     height: 0.5rem; }

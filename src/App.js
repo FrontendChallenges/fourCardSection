@@ -31,21 +31,25 @@ function App() {
                 title='Supervisor'
                 content=' Monitors activity to identify project roadblocks'
                 icon={supervisor}
+                topLine='green'
               />
               <SectionCard
                 title='Team Builder'
                 content=' Scans our talent network to create the optimal team for your project'
                 icon={team}
+                topLine='red'
               />
               <SectionCard
                 title='Karma'
                 content='Regularly evaluates our talent to ensure quality'
                 icon={karma}
+                topLine='yellow'
               />
               <SectionCard
                 title='Calculator'
                 content='Uses data from past projects to provide better delivery estimates'
                 icon={calculator}
+                topLine='blue'
               />
             </Col>
           </Row>
