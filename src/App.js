@@ -26,13 +26,15 @@ function App() {
             />
           </Row>
           <Row>
-            <Col>
+            <Col className='m-auto'>
               <SectionCard
                 title='Supervisor'
                 content=' Monitors activity to identify project roadblocks'
                 icon={supervisor}
                 topLine='green'
               />
+            </Col>
+            <Col className='m-auto gap-1'>
               <SectionCard
                 title='Team Builder'
                 content=' Scans our talent network to create the optimal team for your project'
@@ -45,6 +47,8 @@ function App() {
                 icon={karma}
                 topLine='yellow'
               />
+            </Col>
+            <Col className='m-auto'>
               <SectionCard
                 title='Calculator'
                 content='Uses data from past projects to provide better delivery estimates'
