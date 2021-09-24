@@ -34,7 +34,7 @@ function App() {
                 topLine='green'
               />
             </Col>
-            <Col className='m-auto gap-1'>
+            <Col className='m-auto g-5'>
               <SectionCard
                 title='Team Builder'
                 content=' Scans our talent network to create the optimal team for your project'

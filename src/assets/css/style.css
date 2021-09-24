@@ -7909,11 +7909,15 @@ textarea.form-control-lg {
 html {
   font-size: 62.5%; }
 
+.container-md {
+  padding: 5rem; }
+
 .card {
   border-radius: 0.8rem;
   box-shadow: 0 0.5rem 1rem rgba(84, 158, 242, 0.137);
   overflow: hidden;
-  max-width: 40rem; }
+  max-width: 40rem;
+  margin-bottom: 3rem; }
   .card-img {
     max-width: 20%;
     margin: 2rem;

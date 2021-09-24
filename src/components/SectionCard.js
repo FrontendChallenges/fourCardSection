@@ -2,7 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 
-function SectionCard({ title, content, icon, topLine }) {
+function SectionCard({ title, content, icon, topLine, bottomGap }) {
   return (
     <Card className='border-0'>
       <div

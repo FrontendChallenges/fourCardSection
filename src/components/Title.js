@@ -5,7 +5,7 @@ function Title({ titleTop, titleBottom, subtitle }) {
     <div className='text-center'>
       <h1 className='fw-light'>{titleTop}</h1>
       <h1 className='fw-bold'>{titleBottom}</h1>
-      <p className='text-secondary'>{subtitle}</p>
+      <p className='text-secondary py-5'>{subtitle}</p>
     </div>
   );
 }
