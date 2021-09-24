@@ -7914,8 +7914,10 @@ html {
   box-shadow: 0 0.5rem 1rem rgba(84, 158, 242, 0.137);
   overflow: hidden;
   max-width: 40rem; }
-  .card img {
-    max-width: 5%; }
+  .card-img {
+    max-width: 20%;
+    margin: 2rem;
+    align-self: flex-end; }
   .card-top__red {
     background-color: #ea5353; }
   .card-top__blue {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 function SectionCard({ title, content, icon, topLine }) {
   return (
@@ -16,11 +16,13 @@ function SectionCard({ title, content, icon, topLine }) {
             : 'card-top__yellow'
         }
       ></div>
-      <Card.Body>
-        <Card.Title>{title}</Card.Title>
-        <Card.Text>{content}</Card.Text>
+      <Card.Body className='p-5'>
+        <Card.Title className='fw-bold pb-2'>{title}</Card.Title>
+        <Card.Text className='fw-light'>{content}</Card.Text>
       </Card.Body>
-      <img src={icon} alt='icon' />
+      <Row className='card-img'>
+        <img src={icon} alt='icon' />
+      </Row>
     </Card>
   );
 }

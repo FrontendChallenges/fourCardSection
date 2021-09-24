@@ -3,8 +3,11 @@
   box-shadow: 0 0.5rem 1rem hsla(212, 86%, 64%, 0.137);
   overflow: hidden;
   max-width: 40rem;
-  & img {
-    max-width: 5%;
+
+  &-img {
+    max-width: 20%;
+    margin: 2rem;
+    align-self: flex-end;
   }
 
   &-top {
