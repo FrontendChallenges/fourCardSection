@@ -7910,7 +7910,7 @@ html {
   font-size: 62.5%; }
 
 .container-md {
-  padding: 5rem; }
+  padding: 5rem 5rem 2rem 5rem; }
 
 .card {
   border-radius: 0.8rem;
@@ -7932,3 +7932,8 @@ html {
     background-color: #fcaf4a; }
   .card-top__red, .card-top__blue, .card-top__green, .card-top__yellow {
     height: 0.5rem; }
+
+.title-box p {
+  max-width: 50rem;
+  text-align: center;
+  margin: 0 auto; }
