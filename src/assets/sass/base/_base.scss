@@ -4,4 +4,19 @@ html {
 
 .container-md {
   padding: 5rem 5rem 2rem 5rem;
+  & * {
+    margin: auto 0;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-md {
+    &:last-child .row {
+      flex-direction: column;
+    }
+    & * {
+      gap: 0;
+    }
+  }
 }

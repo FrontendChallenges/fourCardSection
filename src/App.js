@@ -26,7 +26,7 @@ function App() {
             />
           </Row>
           <Row>
-            <Col className='m-auto'>
+            <Col>
               <SectionCard
                 title='Supervisor'
                 content=' Monitors activity to identify project roadblocks'
@@ -34,7 +34,7 @@ function App() {
                 topLine='green'
               />
             </Col>
-            <Col className='m-auto g-5'>
+            <Col>
               <SectionCard
                 title='Team Builder'
                 content=' Scans our talent network to create the optimal team for your project'
@@ -48,7 +48,7 @@ function App() {
                 topLine='yellow'
               />
             </Col>
-            <Col className='m-auto'>
+            <Col>
               <SectionCard
                 title='Calculator'
                 content='Uses data from past projects to provide better delivery estimates'
