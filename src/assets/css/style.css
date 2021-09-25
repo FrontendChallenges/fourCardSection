@@ -7919,7 +7919,9 @@ html {
 @media (max-width: 768px) {
   .row:last-child {
     flex-direction: column;
-    gap: 0; } }
+    gap: 0; }
+  .row:last-child > :nth-child(2) > :first-child {
+    margin-bottom: 3rem; } }
 
 .card {
   border-radius: 0.8rem;
@@ -7941,6 +7943,11 @@ html {
     background-color: #fcaf4a; }
   .card-top__red, .card-top__blue, .card-top__green, .card-top__yellow {
     height: 0.5rem; }
+
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 0;
+    margin: 0 auto 1.5rem auto; } }
 
 .title-box p {
   max-width: 50rem;

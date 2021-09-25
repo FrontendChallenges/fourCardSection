@@ -19,6 +19,9 @@ html {
     flex-direction: column;
     gap: 0;
   }
-  & .row:last-child .col {
+
+  // second card grid group
+  & .row:last-child > :nth-child(2) > :first-child {
+    margin-bottom: 3rem;
   }
 }
