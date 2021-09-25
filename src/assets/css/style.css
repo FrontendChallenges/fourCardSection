@@ -7911,14 +7911,14 @@ html {
 
 .container-md {
   padding: 5rem 5rem 2rem 5rem; }
-  .container-md * {
-    margin: auto 0;
+  .container-md .row:last-child {
     gap: 1.5rem; }
+  .container-md .row:last-child .col {
+    margin: auto 0; }
 
 @media (max-width: 768px) {
-  .container-md:last-child .row {
-    flex-direction: column; }
-  .container-md * {
+  .row:last-child {
+    flex-direction: column;
     gap: 0; } }
 
 .card {
