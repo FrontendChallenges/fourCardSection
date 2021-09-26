@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <main>
-        <Container fluid={'md'}>
+        <Container fluid={'lg'}>
           <Row className='mb-5'>
             <Title
               titleTop='Reliable, efficient delivery'

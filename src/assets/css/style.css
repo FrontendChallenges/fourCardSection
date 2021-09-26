@@ -7909,19 +7909,21 @@ textarea.form-control-lg {
 html {
   font-size: 62.5%; }
 
-.container-md {
+.container-lg {
   padding: 5rem 5rem 2rem 5rem; }
-  .container-md .row:last-child {
+  .container-lg .row:last-child {
     gap: 1.5rem; }
-  .container-md .row:last-child .col {
+  .container-lg .row:last-child .col {
     margin: auto 0; }
 
 @media (max-width: 768px) {
-  .row:last-child {
-    flex-direction: column;
-    gap: 0; }
-  .row:last-child > :nth-child(2) > :first-child {
-    margin-bottom: 3rem; } }
+  .container-lg {
+    padding: 5rem 3rem 2rem 3rem; }
+    .container-lg .row:last-child {
+      flex-direction: column;
+      gap: 1.5rem; }
+    .container-lg .row:last-child > :nth-child(2) > :first-child {
+      margin-bottom: 3rem; } }
 
 .card {
   border-radius: 0.8rem;
