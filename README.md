@@ -40,6 +40,3 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - [CSS-TRICKS](https://css-tricks.com/)
 - [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/customize/sass/) -How to use Sass files with Bootstrap
 
-### What I learned
-
-
